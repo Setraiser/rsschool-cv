@@ -55,3 +55,7 @@ I want to work with interesting, passionate people and create cool projects. Cre
 }
 
 ```
+
+### 6. Experience
+
+I created a simple Todo Liszt application in pure javascript, made up websites and wrote scripts for them, and also created a clean theme for WordPress. Among other things, he worked with React.

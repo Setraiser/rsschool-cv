@@ -25,3 +25,33 @@ I want to work with interesting, passionate people and create cool projects. Cre
 
 - Version controller
     * Git
+
+### 5. Code examples
+
+```JS
+    function sum(arr) {
+        return arr.reduce((a, b) => a + b);
+    }
+
+    function palindrom(str) {
+        let newStr = str.split('').reverse().join();
+        return (newStr === str) ? true : false;
+    }
+
+    function maxRepeat(arr) {
+        let max = 1;
+        let element;
+        for (let i = 0; i<arr.length; i++) {
+            let count = 0;
+            for (let j = i; j<arr.length; j++) {
+                if (arr[i] === arr[j]) count ++;
+                if (max < count) {
+                    max = count;
+                    element = arr[i];
+                }     
+            }  
+        }
+        return element;
+}
+
+```

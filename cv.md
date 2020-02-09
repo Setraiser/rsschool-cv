@@ -65,3 +65,7 @@ I created a simple Todo Liszt application in pure javascript, made up websites a
 I graduated from the Novopolsky State Agrarian and Economic College with a degree in Information Technology Software.
 After college, received a degree in Technician programmer. After college, I attended web development courses for a year.
 In addition to college and courses, I watched various video courses.
+
+### 8. English
+
+I studied German at school. I studied English myself

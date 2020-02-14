@@ -34,3 +34,52 @@ h4 {
     width: 100%;
     
 }
+
+
+
+
+.site-container {
+    width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ada8a8;
+    padding-bottom: 2%;
+    transition: padding 0.5s ease-out;
+         
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-section {
+    
+    width: 100%;
+    
+
+}
+
+.img-container {
+    display: inline-block;
+    width: auto;
+    padding: 0 3%;
+}
+
+.contact-info {
+    display: inline-block;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2.5em;
+    padding: 0 3%;
+}
+
+.text-block {
+    padding: 3%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5em;
+}

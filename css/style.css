@@ -103,3 +103,19 @@ h4 {
 #code-examples .site-container{
     background-color: #f0f0f0;
 }
+
+footer {
+    height: 100px; 
+ }
+ 
+ footer .site-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #bdbdbd66;
+ }
+ 
+ footer .site-container p{
+     vertical-align: middle;
+     text-align: center;
+ }

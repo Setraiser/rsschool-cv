@@ -70,6 +70,40 @@
                 </div>
             </div> 
         </section>
+        <section id="code-examples">
+            <div class="site-container">
+                <h3>Code examples</h3>
+                <pre>
+                    <code>
+                        function sum(arr) {
+                            return arr.reduce((a, b) => a + b);
+                        }
+                    
+                        function palindrom(str) {
+                            let newStr = str.split('').reverse().join();
+                            return (newStr === str) ? true : false;
+                        }
+                    
+                        function maxRepeat(arr) {
+                            let max = 1;
+                            let element;
+                            for (let i = 0; i&lt;arr.length; i++) {
+                                let count = 0;
+                                for (let j = i; j&lt;arr.length; j++) {
+                                    if (arr[i] === arr[j]) count ++;
+                                    if (max &lt; count) {
+                                        max = count;
+                                        element = arr[i];
+                                    }     
+                                }  
+                            }
+                            return element;
+                        }
+                    
+                    </code>
+                </pre>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>

@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 18px;
+}
+
+h1 {
+    text-align: center;
+    padding: 2% 0;
+}
+
+h3 {
+    text-align: left;
+    padding: 2%;
+}
+
+h4 {
+    padding: 3% 0;
+}
+
+ ul {
+    list-style-type: none;
+    width: 100%;
+    
+}
+
+.site-container {
+    width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ada8a8;
+    padding-bottom: 2%;
+    transition: padding 0.5s ease-out;
+         
+}
+
+#nav {
+    text-align: center;
+    
+    position: relative;
+}
+
+#nav li{
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 1px solid transparent;
+    transition: border 0.5s ease-out 0.5s; 
+    
+    
+}
+
+#nav li:hover {
+    border-bottom: 1px solid #fff;
+    transition: border 0.5s ease-in-out 0.5s;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav .site-container {
+    background-color: #353535;
+    padding: 3% 0;
+}
+
+
+#top-section {  
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container {
+    display: inline-block;
+    width: auto;
+    padding: 0 3%;
+}
+
+.contact-info {
+    display: inline-block;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2.5em;
+    padding: 0 3%;
+}
+
+.text-block {
+    padding: 3%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+#summary .site-container {
+    background-color: #f0f0f0;
+}
+
+#summary .site-container {
+    background-color: #f0f0f0;
+}
+
+#skills .wrapper {
+    width: 100%;
+}
+
+.skills-block {
+    padding: 3%;
+}
+
+.skills-block ul li {
+    padding: 3px 0;
+}
+
+#code-examples .site-container{
+    background-color: #f0f0f0;
+}
+
+#experience p, #education p, #english p {
+    font-size: 20px;
+    padding: 2% 3% 0 3%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+footer {
+    height: 100px; 
+ }
+ 
+ footer .site-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #bdbdbd66;
+ }
+ 
+ footer .site-container p{
+     vertical-align: middle;
+     text-align: center;
+ }

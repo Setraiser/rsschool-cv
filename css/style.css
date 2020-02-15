@@ -82,3 +82,15 @@ h4 {
 #summary .site-container {
     background-color: #f0f0f0;
 }
+
+#skills .wrapper {
+    width: 100%;
+}
+
+.skills-block {
+    padding: 3%;
+}
+
+.skills-block ul li {
+    padding: 3px 0;
+}

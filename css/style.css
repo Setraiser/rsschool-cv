@@ -94,3 +94,7 @@ h4 {
 .skills-block ul li {
     padding: 3px 0;
 }
+
+#code-examples .site-container{
+    background-color: #f0f0f0;
+}
